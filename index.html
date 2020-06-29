@@ -11,6 +11,50 @@
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+
+    <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+
+    /* The Close Button */
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    </style>
+
   </head>
   <body id="top">
     <header>
@@ -184,63 +228,64 @@
         <div class="h4 text-center mb-4 title">Portfolio</div>
         <div class="nav-align-center">
           <ul class="nav nav-pills nav-pills-primary" role="tablist">
-            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-android" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#ios-development" role="tablist"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#android-development" role="tablist"><i class="fa fa-android" aria-hidden="true"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="tab-content gallery mt-5">
-      <div class="tab-pane active" id="web-development">
+      <div class="tab-pane active" id="ios-development">
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://apps.apple.com/tr/app/d%C3%BCnyag%C3%B6z/id1460659902" target="_blank">
+              <div id="dunyagozbtn" class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                   <figure class="cc-effect"><img src="images/dunyagoz.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Dünyagöz Hospitals Group</div>
-                      <p>iOS Development</p>
+                      <p>Medrics Apps</p>
                     </figcaption>
                   </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
+              <div id="mersinbtn"  class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                  <figure class="cc-effect"><img src="images/mersin.jpg" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Startup Project</div>
-                      <p>Web Development</p>
+                      <div class="h4">Mersin Şehir Hastanesi</div>
+                      <p>Medrics Apps</p>
                     </figcaption>
                   </figure></a></div>
             </div>
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <a href="https://github.com/muhammadalkhalaf/My-Previous-Apps/blob/master/Abraj-Real-Estate.md#abraj-real-estate" target="_blank">
+                  <figure class="cc-effect"><img src="images/abraj_app.png" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Food Order Project</div>
-                      <p>Web Development</p>
+                      <div class="h4">Abraj Project</div>
+                      <p>My First iOS App</p>
                     </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
+                  </figure></div></a>
+              <div id="medicanabtn" class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                  <figure class="cc-effect"><img src="images/medicana.jpg" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Web Advertising Project</div>
-                      <p>Web Development</p>
+                      <div class="h4"><br><br>Medicana Sağlık Grubu</div>
+                      <p>Medrics Apps</p>
                     </figcaption>
-                  </figure></a></div>
+                  </figure></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="tab-pane" id="graphic-design" role="tabpanel">
+      <div class="tab-pane" id="android-development" role="tabpanel">
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#android-development">
                   <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Triangle Pattern</div>
                       <p>Graphic Design</p>
                     </figcaption>
                   </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#android-development">
                   <figure class="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Abstract Umbrella</div>
@@ -249,14 +294,14 @@
                   </figure></a></div>
             </div>
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#android-development">
                   <figure class="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Cube Surface Texture</div>
                       <p>Graphic Design</p>
                     </figcaption>
                   </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#android-development">
                   <figure class="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Abstract Line</div>
@@ -267,44 +312,7 @@
           </div>
         </div>
       </div>
-      <div class="tab-pane" id="Photography" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Wedding Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Beach Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Nature Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </div>
   </div>
 </div>
@@ -326,7 +334,7 @@
   <li>Support Arabic languageand RTL (Right to Left) layout direction in iOS and Android apps.</li>
   <li>Healthcare Mobile Application, IoT, Indoor Location Tracking, Bluetooth Low Energy, Beacons, ﻿Geofence, Firebase, Custom Notification.</li>
   <li>Build and maintain mobile applications and publish them for iOS smart phones.</li>
-  <li><a href="https://github.com/muhammadalkhalaf/My-Previous-Apps/blob/master/medrics-apps.md" target="_blank">Medrics Apps</a></li>
+  <li><a href="https://github.com/muhammadalkhalaf/My-Previous-Apps/blob/master/medrics-apps.md#medrics-apps" target="_blank">Medrics Apps</a></li>
            </ul>
           </div>
         </div>
@@ -347,7 +355,7 @@
             <li>Working with Xcode and Swift for Deliver across the entire app life cycle design, build, deploy, test, publish onApp Store</li>
             <li>Using remote data via REST and JSON , Google Maps API and Marker Clustering.</li>
             <li>Social Login with Gmail, Facebook and Twitter.</li>
-            <li><a href="https://github.com/muhammadalkhalaf/My-Previous-Apps/blob/master/Abraj-Real-Estate.md" target="_blank">Abraj Real Estate</a></li>
+            <li><a href="https://github.com/muhammadalkhalaf/My-Previous-Apps/blob/master/Abraj-Real-Estate.md#abraj-real-estate" target="_blank">Abraj Real Estate</a></li>
             </ul>
           </div>
         </div>
@@ -368,7 +376,7 @@
             <li>Working with android studio and java for design , build , debug , deploymentand maintenance android applications and publish in google play store</li>
             <li>Media , News , Maps , Real Time , Project Management and shopping apps</li>
             <li>Using remote data via REST and JSON, Cached data via SQLite and Room</li>
-            <li><a href="https://github.com/muhammadalkhalaf/My-Previous-Apps/blob/master/my-previous-android-apps.md" target="_blank">Semicolon Apps</a></li>
+            <li><a href="https://github.com/muhammadalkhalaf/My-Previous-Apps/blob/master/my-previous-android-apps.md#my-previous-android-apps" target="_blank">Semicolon Apps</a></li>
             </ul>
           </div>
         </div>
@@ -573,6 +581,68 @@
         <p>NATIVE IOS AND ANDROID DEVELOPER<br><a class="credit" href="#top">Go To Top</a></p>
       </div>
     </footer>
+
+<!-- dunyagozModal -->
+<div id="dunyagozModal" class="modal">
+  <div class="modal-content">
+    <span id="dunyagozClosebtn" class="close">&times;</span>
+    <p class="h6 title text-center">Dünyagöz Hospitals Group</p>
+    <p class="category text-center">
+      <br><a href="https://apps.apple.com/tr/app/d%C3%BCnyag%C3%B6z/id1460659902" target="_blank">
+            <img src="images/App_Store_Badge.svg">
+          </a>
+    </p>
+    <p align="center">
+      <video width="350" height="600" autoplay="autoplay" controls muted>
+        <source src="videos/dunyagoz.mp4" type="video/mp4">
+    </video>
+    </p>
+</iframe>
+  </div>
+</div>
+
+<!-- mersinModal -->
+<div id="mersinModal" class="modal">
+  <div class="modal-content">
+    <span id="mersinClosebtn" class="close">&times;</span>
+    <p class="h6 title text-center">Mersin Şehir Hastanesi</p>
+    <p class="category text-center">
+      <br><a href="https://apps.apple.com/tr/app/mersin-%C5%9Fehir-hastanesi/id1305138122" target="_blank">
+            <img src="images/App_Store_Badge.svg">
+          </a>
+    </p>
+    <p align="center">
+      <video width="350" height="600" autoplay="autoplay" controls muted>
+        <source src="videos/mersin.mp4" type="video/mp4">
+    </video>
+    </p>
+</iframe>
+  </div>
+</div>
+
+<!-- medicanaModal -->
+<div id="medicanaModal" class="modal">
+  <div class="modal-content">
+    <span id="medicanaClosebtn" class="close">&times;</span>
+    <p class="h6 title text-center">Medicana Sağlık Grubu</p>
+    <p class="category text-center">
+      <br><a href="https://apps.apple.com/tr/app/medicana-mobil-uygulamas%C4%B1/id1446269061" target="_blank">
+            <img src="images/App_Store_Badge.svg">
+          </a>
+    </p>
+    <p align="center">
+      <video width="350" height="600" autoplay="autoplay" controls muted>
+        <source src="videos/medicana.mp4" type="video/mp4">
+    </video>
+    </p>
+</iframe>
+  </div>
+</div>
+
+
+
+
+    <script src="js/mymodels.js"></script>
     <script src="js/core/jquery.3.2.1.min.js"></script>
     <script src="js/core/popper.min.js"></script>
     <script src="js/core/bootstrap.min.js"></script>
